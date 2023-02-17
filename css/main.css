@@ -1,7 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+  color: #7b7b7b;
+}
+h2 {
+  color: #4eafb8;
+}
+p {
+  color: #ff8641;
+}
+
 /* ----------- For screens 768px and larger ----------- */
 @media (min-width: 768px) {
   body {
     background: red;
+  }
+  h1 {
+    color: #02cbd2;
+  }
+  h2 {
+    color: #fcc02a;
+  }
+  p {
+    color: #7b8f8e;
   }
 }
 
@@ -9,5 +30,14 @@
 @media (min-width: 1200px) {
   body {
     background: dimgrey;
+  }
+  h1 {
+    color: #6e4b61;
+  }
+  h2 {
+    color: #cabd61;
+  }
+  p {
+    color: #c19e74;
   }
 }
